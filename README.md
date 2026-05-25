@@ -43,6 +43,7 @@ The dependencies are declared in [platformio.ini](/Users/mrc/Desktop/esp32/platf
 
 ## Configuration
 
+#
 ```cpp
 constexpr char WIFI_SSID[] = "";
 constexpr char WIFI_PASSWORD[] = "";
