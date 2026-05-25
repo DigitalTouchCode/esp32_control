@@ -6,11 +6,11 @@
 
 namespace {
 
-constexpr char WIFI_SSID[] = "mimi";
-constexpr char WIFI_PASSWORD[] = "123456780";
+constexpr char WIFI_SSID[] = "";
+constexpr char WIFI_PASSWORD[] = "";
 
 // default 69,169.97.215:8000/ws/device/sensor-data/ for prduction
-constexpr char WS_HOST[] = "69.169.97.215";
+constexpr char WS_HOST[] = "";
 constexpr uint16_t WS_PORT = 8000;
 constexpr char WS_PATH[] = "/ws/device/sensor-data/";
 constexpr char DEVICE_ID[] = "esp32_01";
