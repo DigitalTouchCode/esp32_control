@@ -102,14 +102,3 @@ Example incoming command:
 ```json
 {"type":"pump_command","command":"OFF"}
 ```
-
-## Current Limitation
-
-The source code calls `readTemperatureC()`, but that function is not implemented in the current project. Because of that, the firmware will not compile until temperature reading logic is added or the call is removed from [src/main.cpp](/Users/mrc/Desktop/esp32/src/main.cpp).
-
-## Improvements To Make
-
-- move credentials and server settings out of source code
-- implement the temperature sensor reading function
-- add better reconnect and error handling
-- add automated tests for message parsing and device state changes
