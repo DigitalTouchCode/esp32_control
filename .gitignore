@@ -1,2 +1,150 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+*.rej
+
+# Node / JavaScript / Expo
+node_modules/
+.expo/
+.expo-shared/
+*.expo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.tmp
+npm-error.log*
+
+# Expo / React Native build output
+android/app/build/
+android/.gradle/
+android/*.iml
+android/local.properties
+android/.cxx/
+ios/Pods/
+ios/Pods-*
+ios/build/
+ios/*.xcodeproj/project.xcworkspace/
+ios/DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+
+# Expo web output
+web-build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+*
+*.sqlite3
+*.sqlite
+*.db
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# PlatformIO / firmware
 .pio/
-.platformio/
+.pioenvs/
+build/
+libdeps/
+platformio.ini.tmp
+.esp-idf/
+*.elf
+*.bin
+*.hex
+*.map
+*.img
+
+# C/C++ build
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.out
+
+# JetBrains
+.idea/
+*.iml
+
+# Logs
+*.log
+npm-debug.log*
+*/npm-debug.log*
+*yarn-debug.log*
+*pnpm-debug.log*
+
+# Misc
+.DS_Store
+thumbs.db
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# React Native / Expo cache
+.expo/
+.expo-shared/
+.expo/state.json
+
+# Local jest cache
+jest-cache/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Build output from any folder
+build/
+dist/
+coverage/
